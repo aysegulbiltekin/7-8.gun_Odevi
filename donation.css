@@ -1,0 +1,125 @@
+:root{
+    --midnight-blue: #03045eff;
+    --dark-cornflower-blue: #023e8aff;
+    --star-command-blue: #0077b6ff;
+    --blue-green: #0096c7ff;
+    --pacific-blue: #00b4d8ff;
+    --sky-blue-crayola: #48cae4ff;
+    --middle-blue: #90e0efff;
+    --blizzard-blue: #ade8f4ff;
+    --light-cyan: #caf0f8ff;
+    --white:#fff;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.layout{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background2.jpg');
+}
+.back button{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    background-color: #2e313a;
+    border: none;
+    border-radius: 50%;
+    font-size: 15px;
+    transition: 1.1s;
+
+}
+.back button:hover{
+    transition: 1.1;
+    font-size: 20px;
+}
+.product-list{
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5ex;
+    background-color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.product{
+    
+    width: 600px;
+    height: 600px;
+    border-radius: 10ex;
+    background-color: #2e313a;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 15px  10px rgb(97, 97, 97);
+
+
+}
+.product h1{
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;}
+.product p{
+    margin: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight:bold;
+    font-family: 'Raleway', sans-serif;
+}
+.product input{
+    width: 70%;
+    height: 40px;
+    color: black;
+    border: none;
+}
+.product input:hover{
+    color: black;
+    box-shadow: 0px 5px  10px #fafaee;
+
+}
+
+
+#add{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #2e313a;
+    background-color: #f2f2f2;
+    box-shadow: 0px 5px  3px rgb(164, 164, 164);
+    transition: 1.05s;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+
+
+}
+#show{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #2e313a;
+    background-color: #f2f2f2;
+    box-shadow: 0px 5px  3px rgb(164, 164, 164);
+}
+
+
+

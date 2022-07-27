@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+TAS+Beginner&family=Fredericka+the+Great&family=Raleway:wght@300&display=swap" rel="stylesheet">            <link rel="stylesheet" href="donation.css">
+            <link rel="shortcut icon" type="image/jpg" href="aski.svg"/>
+            <link rel="stylesheet" href="register.css">
+
+            <title>Kitap Bağışı</title>
+</head>
+<body>
+
+<div class="layout">
+    <div class="back">
+        <a href="home-page.html">
+            <button>Geri dön</button>
+        </a>
+    </div>
+    
+    <div class="product">
+        <h1>Kayıt Ol</h1>
+      <p>Ad Soyad  </p>      
+     <input type="text" id="input1" placeholder="Adınızı soyadınızı giriniz">
+     <p>Doğum Tarihi : </p>      
+     <input type="date" id="input2" >
+     <p>Telefonu :</p>      
+     <input type="number" id="input3" placeholder="(___)(_____________)">
+     
+     <p>Adresi :</p>      
+     <textarea  id="input4" cols="60" rows="5"></textarea>
+     
+     <div id="product-buttons">
+     <button id="add" onclick="addToList()">Bilgilerimi ekle</button>
+     <button id="show" onclick="showList()">Bilgilerimi Görüntüle</button>
+    </div>
+     <div class="product-list">
+
+     </div>
+
+    </div>
+    
+</div>
+     
+     <script src="register.js"></script>
+</body>
+</html>

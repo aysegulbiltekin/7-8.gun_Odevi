@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+TAS+Beginner&family=Fredericka+the+Great&family=Raleway:wght@300&display=swap" rel="stylesheet">            <link rel="stylesheet" href="donation.css">
+            <link rel="shortcut icon" type="image/jpg" href="aski.svg"/>
+
+            <title>Kitap Bağışı</title>
+</head>
+<body>
+
+<div class="layout">
+    <div class="back">
+        <a href="home-page.html">
+            <button>Geri dön</button>
+        </a>
+
+    </div>
+    <div class="product">
+        <h1>Askıya Kitap Ekle</h1>
+      <p>Kitap Adı </p>      
+     <input type="text" id="input1" placeholder="Kitap adını giriniz">
+     <p>Kitap Yazarı </p>      
+     <input type="text" id="input2" placeholder="Kitap yazarını giriniz">
+     <p>Kitap Sayısı</p>      
+     <input type="number" id="input3" placeholder="Kitap sayısını giriniz">
+     
+     <div id="product-buttons">
+     <button id="add" onclick="addToList()">Kitabı ekle</button>
+     <button id="show" onclick="showList()">Kitapları Görüntüle</button>
+    </div>
+     <div class="product-list">
+
+     </div>
+
+    </div>
+    
+</div>
+     
+     <script src="app.js"></script>
+</body>
+</html>
